@@ -1,7 +1,8 @@
-#include "Animal.hpp"
+#include "../inc/Dog.hpp"
 
-Dog::Dog() : Animal("Dog")
+Dog::Dog() : Animal()
 {
+    _type = "Dog";
     std::cout << "Dog constructor called" << std::endl;
 }
 

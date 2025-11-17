@@ -3,7 +3,7 @@ CXX = c++
 CXXFLAGS = -Wall -Wextra -Werror -std=c++98 -Iinc
 
 # Target executable
-TARGET = animalsAndBrain
+TARGET = abstracts
 
 # Source directory
 SRC_DIR = src

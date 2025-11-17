@@ -1,4 +1,6 @@
-#include "all.hpp"
+#include "inc/MateriaSource.hpp"
+#include "inc/Character.hpp"
+#include "inc/AMateria.hpp"
 
 int main(){
 	

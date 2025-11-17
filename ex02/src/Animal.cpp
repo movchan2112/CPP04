@@ -31,7 +31,6 @@ Animal& Animal::operator=(const Animal& other) {
 }
 
 Animal::~Animal() {
-    std::cout << "Animal destructor" << std::endl;
     if(br != NULL)
         delete br;
 }
@@ -40,6 +39,6 @@ void Animal::getType() const {
     std::cout << _type << std::endl;
 }
 
-void Animal::makeSound() const {
-    std::cout << "Generic sound" << std::endl;
-}
+// void Animal::makeSound() const {
+//     std::cout << "Generic sound" << std::endl;
+// }

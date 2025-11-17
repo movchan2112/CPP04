@@ -3,7 +3,7 @@ CXX = c++
 CXXFLAGS = -Wall -Wextra -Werror -std=c++98 -Iinc
 
 # Target executable
-TARGET = animalsAndBrain
+TARGET = animals
 
 # Source directory
 SRC_DIR = src
@@ -12,7 +12,7 @@ SRC_DIR = src
 INC_DIR = inc
 
 # Source files
-SOURCES = $(SRC_DIR)/main.cpp $(SRC_DIR)/Animal.cpp $(SRC_DIR)/Cat.cpp $(SRC_DIR)/Dog.cpp $(SRC_DIR)/Brain.cpp
+SOURCES = $(SRC_DIR)/main.cpp $(SRC_DIR)/Animal.cpp $(SRC_DIR)/Cat.cpp $(SRC_DIR)/Dog.cpp
 
 # Object files
 OBJECTS = $(SOURCES:$(SRC_DIR)/%.cpp=%.o)
