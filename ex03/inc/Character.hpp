@@ -4,7 +4,6 @@
 #include <string>
 #include "ICharacter.hpp"
 #include "AMateria.hpp"
-#include "config.hpp"
 
 class Character: public ICharacter
 {
